@@ -128,7 +128,6 @@ a:hover {color: blue;}
     Footeer
 ----------------------------------------------------- */
 
-
 body {
   color: #FFFFFF;
 }
@@ -165,6 +164,7 @@ body {
 }
 
 .card-header {
+  background: #FFFFFF;
   &::before {
     content: '';
     position: absolute;
