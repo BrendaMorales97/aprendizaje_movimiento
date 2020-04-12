@@ -102,6 +102,8 @@ body{
     min-height: 100vh;
     position: relative;
     display: block;
+    background-image: url("../images/trama.png");
+    background-size: cover;
 }
 
 a,
@@ -142,7 +144,7 @@ a:focus {
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    background: #1c3054;
+    background: rgba(0,35,78,0.85);
     color: #fff;
     transition: all 0.3s;
 }
@@ -159,15 +161,22 @@ a:focus {
     padding: 20px 0;
 }
 
+#sidebar ul li {
+  padding: 10px 15px;
+}
+
 #sidebar ul p {
     color: #fff;
     padding: 10px;
 }
 
 #sidebar ul li a {
-    padding: 10px;
-    font-size: 1.1em;
     display: block;
+    border-bottom: solid 1px;
+    padding: 10px;
+    font-size: 26px;
+    display: block;
+    font-weight: 900;
 }
 
 #sidebar ul li a:hover {
@@ -181,7 +190,16 @@ a[aria-expanded="true"] {
 }
 
 #sidebarCollapse{
-    
+    background-image: url("../images/hamburguesa.png");
+    background-color: transparent;
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    border: none;
+}
+
+#logo-contenido{
+  max-width: 150px;
 }
 
 a[data-toggle="collapse"] {
