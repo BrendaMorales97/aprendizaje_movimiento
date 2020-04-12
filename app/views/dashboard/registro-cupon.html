@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Simple Sidebar - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../../public/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../public/css/all.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../../../public/css/nuevo_cupon.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8" id="registro">
+                <div class="d-flex flex-wrap">
+                    <div class="w-50 p-4">
+                        <img src="../../../public/images/logo-sidebar.png" class="img-fluid" alt="Sumándonos">
+                    </div>
+                    <div class="w-50 p-4">
+                        <img src="../../../public/images/imagen-ticket.png" class="img-fluid" alt="Sumándonos">
+                    </div>
+                </div>
+
+                <p id="cupon-title" style="font-size: 80px; font-weight: 900; padding: 50px; margin-top: -105px; white-space:nowrap; color: #0690c442;">Editar</p>
+                <p id="cupon-title" style="font-size: 80px; font-weight: 900; text-align: right; padding: 35px; white-space:nowrap; margin-top: -160px; color: #0690c442;">Cupón</p>
+
+                
+                <form>
+                    <div class="form-group row" id="descuento-group">
+                      <label for="inputDescuento" class="col-5 col-form-label" id="descuento-label">Descuento del cupón</label>
+                      <div class="col-7">
+                        <input type="text" class="form-control" id="descuento">
+                      </div>
+                    </div>
+
+                    <div class="form-group row" id="group-porcentaje">
+                    <div class="form-check form-check-inline" id="check-porcentaje">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">2x1</label>
+                      </div>
+                      <div class="form-check form-check-inline" id="check-porcentaje">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Porcentaje</label>
+                      </div>
+                      <div class="form-check form-check-inline" id="check-porcentaje">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" disabled>
+                        <label class="form-check-label" for="inlineRadio3">Pesos</label>
+                      </div>
+                    </div>
+
+                    <div class="form-group" id="textarea">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Descripción del producto"></textarea>
+                      </div>
+                
+                      
+                      <div class="form-group row">
+                        <label for="inputDescuento" class="col-5 col-form-label" id="descuento-label">Monedas requeridas</label>
+                        <div class="col" id="elemnto" style="margin-right: -100px;">
+                            
+                            <button data-decrease onclick="decremento()">-</button>
+                        </div>
+                        <div class="col-4" id="elemnto">
+                            <input class="form-control" data-value type="text" id="porcentaje" value="1" disabled />
+                        </div>
+                        <div class="col" id="elemnto">                            
+                            <button data-increase onclick="incremento()">+</button>
+                        </div>
+                      </div>
+
+                      <p id="numero-cupones">No. de cupones a imprimir</p>
+
+                      <div class="form-group row">
+                      <div class="col" id="elemnto2" style="margin-right: -120px; margin-left: 90px;">
+                            
+                        <button data-decrease onclick="decremento()">-</button>
+                    </div>
+                    <div class="col-4" id="elemnto2">
+                        <input class="form-control" data-value type="text" id="porcentaje" value="1" disabled />
+                    </div>
+                    <div class="col" id="elemnto2">                            
+                        <button data-increase onclick="incremento()">+</button>
+                    </div>
+                    </div>
+
+                    <div class="form-group">
+                        <img id="blah" src="https://via.placeholder.com/150" alt="Agregar" />
+                        <input type='file' id="imgInp"/>
+                    </div>
+
+                  </form>
+                
+                    <div class="form-group text-right">
+                        <button class="btn">
+                            Guardar Cupón
+                        </button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="../../../public/jquery/jquery.min.js"></script>
+    <script src="../../../public/js/bootstrap.min.js"></script>
+    <script src="../../../public/js/global.js"></script>
+    <script src="../../../public/js/nuevo_cupon.js"></script>
+
+
+</body>
+
+</html>

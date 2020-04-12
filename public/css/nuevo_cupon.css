@@ -1,0 +1,85 @@
+body{
+    background-image: url("../images/trama.png");
+    background-size: cover;
+}
+
+.img-fluid{
+    margin-left: -10px;
+}
+
+
+#registro .form-control{
+    border-color: rgb(0, 34, 78);
+    border-radius: 22px;
+    border-width: 2px;
+}
+
+#registro .btn{
+    width: 160px;
+    background-color: rgb(0, 34, 78);
+    border-radius: 22px;
+    color: #fff;
+}
+
+.cupon-title{
+    font-size: 50em;
+}
+
+#descuento{
+    font-size: 15px;
+
+}
+
+#descuento-label{
+    padding-left: 45px;
+    padding-top: 0;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#check-porcentaje{
+    font-size: 30px;
+    margin-right: -50px;
+    margin-left: 62px;
+}
+
+#group-porcentaje{
+    margin-left: -38px;
+    margin-top: -10px;
+}
+
+#textarea{
+    margin-left: 25px;
+    width: 330px;
+    height: auto;
+}
+
+#descuento-group{
+    margin-top: -35px;
+}
+
+#elemnto{
+    margin-right: -25px;
+}
+
+#numero-cupones{
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#elemnto2{
+    margin-right: -10px;
+}
+
+#blah{
+        width: 150px;
+        height: 150px;
+        margin-left: 100px;
+   
+}
+
+#imgInp{
+    margin-left: 100px;
+}
