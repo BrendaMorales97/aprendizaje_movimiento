@@ -118,7 +118,7 @@
 }
 
 a {color: black;}
-a:hover {color: green;}
+a:hover {color: blue;}
 
 .text-bodyp{
   font-weight: 300;
@@ -127,13 +127,10 @@ a:hover {color: green;}
   /* ---------------------------------------------------
     Footeer
 ----------------------------------------------------- */
-$dark1: #000000;
-$dark2: #212121;
-$dark3: #303030;
-$dark4: #424242;
+
+
 body {
-  background: $dark3;
-  color: #F5F5F5;
+  color: #FFFFFF;
 }
 
 .row {
@@ -154,21 +151,20 @@ body {
 }
 
 .box {
-  background: $dark4;
+
   border-radius: 30px;
   height: 20rem;
   width: 15rem;
 }
 
 .card {
-  background: $dark4;
+
   border: 0px;
   border-radius: 30px;
   width: 100%;
 }
 
 .card-header {
-  background: $dark2;
   &::before {
     content: '';
     position: absolute;
