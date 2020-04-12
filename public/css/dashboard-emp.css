@@ -1,0 +1,82 @@
+body{
+    background-image: url("../images/trama.png");
+    background-size: cover;
+}
+
+.img-fluid{
+    margin-left: 180px;
+}
+
+.form-control{
+    border-color: #078fc3;
+    border-radius: 22px;
+    border-width: 1px;
+    background-color:transparent;
+}
+
+.perfil{
+    width: 150px;
+    margin:5px auto;
+	display:block;
+}
+
+#editar-perfil{
+    text-align: center;
+    font-size: 25px;
+    color: #11264e;
+}
+
+#name-company{
+    text-align: center;
+    font-size: 15px;
+    color: #11264e;
+}
+
+.progress{
+    margin-top: 2px;
+}
+
+.progress-bar{
+    background-color: #ffbc05;
+}
+
+#canjeados{
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+
+#button-cupones{
+    color: #FFF;
+    background: #11264e;
+    padding: 6px 115px;
+    white-space: nowrap;
+    -moz-border-radius: 5px;
+    border-radius: 22px;
+    border-color: transparent;
+    margin: 25px 0px;
+}
+
+#nuevo-cupon{
+    color: #11264e;
+    background: #ffbc05;
+    padding: 6px 125px;
+    white-space: nowrap;
+    -moz-border-radius: 5px;
+    border-radius: 22px;
+    border-color: transparent;
+}
+
+.numberCircle {
+position:absolute;
+border-radius: 100%;
+width: 70px;
+height: 70px;
+font-size: 30px;
+padding: 11px 10px 5px 18px;
+color: white;
+margin-top: -20px;
+margin-left: 210px;
+background: red;
+z-index: 2;
+}
