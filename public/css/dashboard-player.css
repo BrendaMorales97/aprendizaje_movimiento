@@ -1,0 +1,96 @@
+#foto-perfil{
+    width: 180px;
+    position: relative;
+    margin: 0 auto;
+  }
+  #foto-perfil .badge{
+    position: absolute;
+    right: 0px;
+    padding: 16px 20px;
+  }
+  
+  
+  #editar-perfil{
+      color: rgb(0, 34, 78);
+      font-weight: 800;
+      font-size: 15px;
+  }
+
+  #monedas img{
+      width: 20px;
+      height: auto;
+     
+  }
+
+
+#score-monedas{
+    color: rgb(0, 34, 78);
+      font-weight: 800;
+      font-size: 35px;
+      margin-top: -18px;
+}
+  
+  #usuario-jugador{
+      color: rgb(0, 34, 78);
+      border: solid 1px #0498C8;
+      border-radius: 22px;
+      padding: 10px;
+      font-size:18px;
+      font-weight: 500;
+  }
+  
+  #btn-cupones-activos {
+      background-color: rgb(0, 34, 78);
+      color: #fff;
+      border-radius: 22px;
+      padding: 10px;
+      font-size:18px;
+  }
+  
+  #btn-nuevo-cupon {
+      background-color: #ffc107;
+      color: rgb(0, 34, 78);
+      border-radius: 22px;
+      padding: 10px;
+      font-weight: 600;
+      font-size:18px;
+  }
+
+  #canjea{
+    color: rgb(0, 34, 78);
+    border-radius: 22px;
+    margin-left: 50px;
+    font-size:18px;
+    font-weight: 600;
+  }
+
+  #foto-cupon{
+    width: 300px;
+    position: relative;
+    margin: 0 auto;
+  }
+  #foto-cupon .text-center{
+    position: absolute;
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(0, 34, 78);
+    right: 0px;
+    padding: 35px 85px;
+  }
+
+  #foto-cupon #moneda{
+    position: absolute;
+    right: 250px;
+    top: 100px;
+    padding: 25px 15px;
+  }
+
+  #foto-cupon #monto{
+    position: absolute;
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(0, 34, 78);
+    right: 140px;
+    top: 75px;
+    padding: 35px 85px;
+  }
