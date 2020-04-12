@@ -130,7 +130,16 @@ a:focus {
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
-
+#sidebarCollapse{
+  background-color: rgb(0, 34, 78);
+  background-image: url("../images/hamburguesa.png");
+  width: 50px;
+  height: 50px;
+  border-radius: 56px;
+  border: none;
+  background-size: contain;
+  cursor: pointer;
+}
 .wrapper {
     display: flex;
     width: 100%;
@@ -140,8 +149,9 @@ a:focus {
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    background: #0099C0;
-    color: #fff;
+    background-image: url("../images/trama.png");
+    background-size: cover;
+    color: rgb(0, 34, 78);
     transition: all 0.3s;
 }
 
@@ -169,8 +179,8 @@ a:focus {
 }
 
 #sidebar ul li a:hover {
-    color: #7386D5;
-    background: #fff;
+    color: #fff;
+    background:rgb(0, 34, 78);
 }
 
 #sidebar ul li.active>a,
@@ -231,6 +241,9 @@ a.article:hover {
     transition: all 0.3s;
 }
 
+#logo-contenido{
+  max-width: 200px;
+}
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
