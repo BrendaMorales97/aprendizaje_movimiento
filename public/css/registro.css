@@ -1,0 +1,40 @@
+body{
+    background-image: url("../images/trama.png");
+    background-size: cover;
+}
+
+#registro h1{
+    font-size: 55px;
+    text-align: center;
+    color: rgba(0, 34, 78, 0.8);
+    font-weight: 900;
+}
+
+
+#registro h2{
+    font-size: 22px;
+    color: #00224E;
+}
+
+#registro .form-control{
+    border-color: rgb(0, 34, 78);
+    border-radius: 22px;
+    border-width: 2px;
+}
+
+#registro .btn{
+    width: 120px;
+    background-color: rgb(0, 34, 78);
+    border-radius: 22px;
+    color: #fff;
+}
+
+.field-icon {
+    float: right;
+    margin-left: -25px;
+    margin-top: -25px;
+    margin-right: 25px;
+    position: relative;
+    z-index: 2;
+  }
+  

@@ -1,0 +1,39 @@
+#cupones-activos h1{
+    font-size: 30px;
+    color: rgba(0, 153, 192, 0.5);
+    font-weight: 900;
+    width: 100%;
+}
+#cupones-activos a.cupon{
+    display: flex;
+    overflow: hidden;    
+    position: relative;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+#cupones-activos a.cupon .toolbar{
+    position: absolute;
+    width: 50px;
+    right: 0px;
+    height: 100%;
+    background-color: #fff;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: -3px 5px 7px rgba(0,0,0,0.8);
+}
+
+#cupones-activos a.cupon .toolbar button{
+    background-color: transparent;
+    border: none;
+    
+}
+
+#cupones-activos a.cupon .toolbar button.editar{
+    color: #00234E;
+}
+#cupones-activos a.cupon .toolbar button.eliminar{
+    color: #ff0000;
+}
