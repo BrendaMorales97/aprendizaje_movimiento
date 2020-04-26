@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Simple Sidebar - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../../public/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../../public/css/all.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="../../../public/css/global.css" rel="stylesheet" />
+    <link href="../../../public/css/store-cupons.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!-- Sidebar  -->
+      <nav id="sidebar" class="active">
+        <ul class="list-unstyled components">
+          <li>
+            <img
+              style="
+                width: 150px;
+                height: auto;
+                margin-left: 30px;
+                margin-top: 10px;
+              "
+              src="../../../public/images/logo-sidebar-bco.png"
+            />
+          </li>
+          <li>
+            <a href="#">Mi perfil</a>
+          </li>
+          <li>
+            <a href="#">Cupones activos</a>
+          </li>
+          <li>
+            <a href="#">Nuevo cupón</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Page Content  -->
+      <div id="content">
+        <div class="container" id="cupones-activos">
+          <div class="row justify-content-center">
+            <div class="col-4">
+              <button type="button" id="sidebarCollapse"></button>
+            </div>
+            <div class="col-8 text-right">
+              <img
+                src="../../../public/images/logo-sidebar.png"
+                id="logo-contenido"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+          <div class="row">
+            <div class="col align-self-center">
+              <div class="d-flex justify-content-center">
+                <div class="card mt-4" style="width: 20rem;">
+                  <h2 id="title-cupon">
+                    ¡Ensalada para dos!
+                  </h2>
+
+                  <img
+                    class="card-img-top"
+                    src="../../../public/images/products/frut.jpg"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <div class="row mt-0">
+                      <div class="col">
+                        Descripción
+                      </div>
+                      <div class="col text-right">
+                        Costo
+                        <img
+                          src="../../../public/images/coins.png"
+                          width="20px"
+                        />
+                      </div>
+                    </div>
+
+                    <hr style="margin-top: 0px;" />
+
+                    <div class="row" style="margin-top: -15px;">
+                      <div class="col-8">
+                        Tu ensalada favorita, con dos ingredientes, más un litro
+                        de té a elegir.
+                      </div>
+
+                      <div class="col text-right" style="margin-right: 40px;">
+                        50
+                      </div>
+                    </div>
+
+                    <hr style="margin-top: 0px;" />
+
+                    <div class="button-canjear">
+                      <button
+                        type="button"
+                        class="btn"
+                        data-toggle="modal"
+                        data-target=".modal"
+                      >
+                        Canjear
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col align-self-center">
+              <div class="d-flex justify-content-center">
+                <div class="card mt-4" style="width: 20rem;">
+                  <h2 id="title-cupon">
+                    ¡Pasta al pesto!
+                  </h2>
+
+                  <img
+                    class="card-img-top"
+                    src="../../../public/images/products/pasta.jpg"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body" style="padding: 10px;">
+                    <div class="row mt-0">
+                      <div class="col">
+                        Descripción
+                      </div>
+                      <div class="col text-right">
+                        Costo
+                        <img
+                          src="../../../public/images/coins.png"
+                          width="20px"
+                        />
+                      </div>
+                    </div>
+
+                    <hr style="margin-top: 0px;" />
+
+                    <div class="row" style="margin-top: -15px;">
+                      <div class="col-8">
+                        Disfruta de una de nuestras especialidades, con un 20%
+                        de descuento.
+                      </div>
+
+                      <div class="col text-right" style="margin-right: 40px;">
+                        100
+                      </div>
+                    </div>
+
+                    <hr style="margin-top: 0px;" />
+
+                    <div class="button-canjear">
+                      <button
+                        type="button"
+                        class="btn"
+                        data-toggle="modal"
+                        data-target=".modal"
+                      >
+                        Canjear
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col align-self-center">
+              <div class="d-flex justify-content-center">
+                <div class="card mt-4" style="width: 20rem;">
+                  <h2 id="title-cupon">
+                    ¡Súper cono doble!
+                  </h2>
+
+                  <img
+                    class="card-img-top"
+                    src="../../../public/images/products/ice.jpg"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <div class="row mt-0">
+                      <div class="col">
+                        Descripción
+                      </div>
+                      <div class="col text-right">
+                        Costo
+                        <img
+                          src="../../../public/images/coins.png"
+                          width="20px"
+                        />
+                      </div>
+                    </div>
+
+                    <hr style="margin-top: 0px;" />
+
+                    <div class="row" style="margin-top: -15px;">
+                      <div class="col-8">
+                        Valido por un cono doble, además podrás combinar dos
+                        sabores por $10 más.
+                      </div>
+
+                      <div class="col text-right" style="margin-right: 40px;">
+                        20
+                      </div>
+                    </div>
+
+                    <hr style="margin-top: 0px;" />
+
+                    <div class="button-canjear">
+                      <button
+                        type="button"
+                        class="btn"
+                        data-toggle="modal"
+                        data-target=".modal"
+                      >
+                        Canjear
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-sm modal-dialog-centered">
+        <div class="modal-content text-center">
+          <div class="content">
+            <strong>¡Gracias!</strong>
+            <p>El cupón se añadio a tu cartera de cupones</p>
+            <hr style="margin-top: 0px;" />
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <a href="">Ir a cartera</a>
+            </div>
+            <div class="col">
+              <a href="">Ir a cartera</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="../../../public/jquery/jquery.min.js"></script>
+    <script src="../../../public/js/bootstrap.min.js"></script>
+    <script src="../../../public/js/global.js"></script>
+  </body>
+</html>
